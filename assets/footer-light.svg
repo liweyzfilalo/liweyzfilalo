@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="Merci de votre visite">
+<defs>
+  <linearGradient id="w" x1="0" x2="1"><stop offset="0" stop-color="#1f7a4d"/><stop offset=".5" stop-color="#3b82f6"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  <style>
+    .wv{animation:wv 9s linear infinite} .wv2{animation:wv 13s linear infinite reverse}
+    @keyframes wv{to{transform:translateX(-600px)}}
+  </style>
+</defs>
+<g opacity="0.8">
+  <path class="wv" d="M0 70 Q150 40 300 70 T600 70 T900 70 T1200 70 T1500 70 T1800 70 V120 H0 Z" fill="url(#w)" opacity=".35"/>
+  <path class="wv2" d="M0 85 Q150 60 300 85 T600 85 T900 85 T1200 85 T1500 85 T1800 85 V120 H0 Z" fill="url(#w)" opacity=".55"/>
+</g>
+<text x="600" y="38" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" fill="#4f5f56">Merci de votre visite ✦</text>
+</svg>

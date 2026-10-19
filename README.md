@@ -1,41 +1,55 @@
-<h1 align="center">Thomas Delhay</h1>
+<a href="https://thomas-delhay.vercel.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <img src="assets/header-light.svg" width="100%" alt="Thomas Delhay, développeur, BTS SIO option SLAM">
+  </picture>
+</a>
 
 <p align="center">
-  Développeur · BTS SIO option SLAM<br>
-  Applications web et de bureau complètes, de l'interface au serveur.
+  <a href="https://thomas-delhay.vercel.app">
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=3FB97A&center=true&vCenter=true&width=640&height=40&lines=Je+construis+des+applis+compl%C3%A8tes%2C+de+A+%C3%A0+Z;Interface%2C+API%2C+base+de+donn%C3%A9es%2C+d%C3%A9ploiement;Sur+le+web%2C+Windows+et+Android;Code+depuis+2022%2C+avec+des+addons+Garry's+Mod" alt="Je construis des applis complètes, de A à Z">
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://thomas-delhay.vercel.app"><img src="https://img.shields.io/badge/Portfolio-thomas--delhay.vercel.app-111?style=for-the-badge" alt="Portfolio"></a>
+  <a href="https://thomas-delhay.vercel.app"><img src="https://img.shields.io/badge/Portfolio-thomas--delhay.vercel.app-1f7a4d?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  <a href="https://github.com/liweyzfilalo/velora-app/releases/latest"><img src="https://img.shields.io/badge/Velora_Musique-Télécharger-3b82f6?style=for-the-badge&logo=github&logoColor=white" alt="Télécharger Velora Musique"></a>
 </p>
 
----
+<br>
 
-J'ai appris à coder en 2022 en créant des addons Lua pour Garry's Mod, puis en gérant des serveurs de jeu en équipe.
-Aujourd'hui je construis des produits complets : site, API, appli Windows, appli Android, et l'IA quand elle sert vraiment.
+## 👋 À propos
 
-## Projets
+```ts
+const thomas = {
+  formation:   "BTS SIO · option SLAM",
+  depuis:      2022,                      // addons Lua pour Garry's Mod, puis serveurs de jeu en équipe
+  aujourdhui:  "des produits complets : site, API, appli Windows, appli Android",
+  priorites:   ["interfaces soignées", "sécurité", "performances"],
+  enCours:     "Velora Musique 🎵",
+};
+```
 
-| | Projet | Ce que c'est | Lien |
-|---|---|---|---|
-| 🎵 | **Velora Musique** | Plateforme de streaming musical : lecteur HLS, recherche, recommandations et radio automatique. Disponible sur le web, Windows et Android. | [velora-musique.vercel.app](https://velora-musique.vercel.app) · [Télécharger l'appli](https://github.com/liweyzfilalo/velora-app) |
-| 🛡️ | **Velora Protect** | Protège un projet de code : détection de secrets et de failles, sauvegardes vérifiées, preuve d'antériorité horodatée (RFC 3161 + Bitcoin). | [velora-protect.vercel.app](https://velora-protect.vercel.app) |
-| 💻 | **Velora IDE** | Éditeur de code fait maison inspiré de Cursor, avec panneau IA intégré. | Electron · React · Monaco |
-| 📁 | **Velora Drive** | Un drive personnel façon Google Drive : comptes, espaces privés, partage. | [velora-drive.netlify.app](https://velora-drive.netlify.app) |
+## 🚀 Projets
 
-## Technologies
-
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white" alt="Lua">
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" alt="Fastify">
-  <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron">
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase">
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
+<p align="center">
+  <a href="https://velora-musique.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/musique-dark.svg"><img src="assets/musique-light.svg" width="49%" alt="Velora Musique : streaming musical complet"></picture></a>
+  <a href="https://velora-protect.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/protect-dark.svg"><img src="assets/protect-light.svg" width="49%" alt="Velora Protect : sécurité et preuve d'antériorité pour le code"></picture></a>
+  <a href="https://thomas-delhay.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ide-dark.svg"><img src="assets/ide-light.svg" width="49%" alt="Velora IDE : éditeur de code inspiré de Cursor"></picture></a>
+  <a href="https://velora-drive.netlify.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/drive-dark.svg"><img src="assets/drive-light.svg" width="49%" alt="Velora Drive : drive personnel"></picture></a>
 </p>
+
+## 🛠️ Technologies
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,py,lua,html,css&perline=6" alt="Langages"><br>
+  <img src="https://skillicons.dev/icons?i=react,vite,nodejs,electron,postgres,supabase&perline=6" alt="Frameworks et bases de données"><br>
+  <img src="https://skillicons.dev/icons?i=git,github,vercel,netlify,docker,vscode&perline=6" alt="Outils">
+</p>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <img src="assets/footer-light.svg" width="100%" alt="Merci de votre visite">
+</picture>
