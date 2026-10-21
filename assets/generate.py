@@ -83,9 +83,13 @@ ICONS = {
     "code": '<polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="14" y1="4" x2="10" y2="20"/>',
     "cloud": '<path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9z"/><path d="M12 12v6"/><path d="m9 15 3-3 3 3"/>',
     "kanban": '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 7v7"/><path d="M12 7v4"/><path d="M16 7v9"/>',
+    "chat": '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M12 6.5l1.2 2.6 2.8.4-2 2 .5 2.8-2.5-1.4-2.5 1.4.5-2.8-2-2 2.8-.4z"/>',
 }
 
 PROJECTS = [
+    dict(slug="ofm", icon="chat", color="#7c83ff", title="Velora Agent IA", tag="EN LIGNE",
+         lines=["L'IA des agences OFM : réponses aux fans,", "scripts PPV, recrutement et coach 1:1."],
+         chips=["Node.js", "API LLM", "Stripe", "Extension"], link="velora-ofm.vercel.app"),
     dict(slug="musique", icon="music", color="#3b82f6", title="Velora Musique", tag="EN LIGNE",
          lines=["Streaming musical complet : lecteur HLS,", "recommandations et radio automatique."],
          chips=["React", "Fastify", "Supabase", "Electron"], link="velora-musique.vercel.app"),

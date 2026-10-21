@@ -33,6 +33,7 @@ const thomas = {
 ## 🚀 Projets
 
 <p align="center">
+  <a href="https://velora-ofm.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ofm-dark.svg"><img src="assets/ofm-light.svg" width="49%" alt="Velora Agent IA : l'IA des agences OFM"></picture></a>
   <a href="https://velora-musique.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/musique-dark.svg"><img src="assets/musique-light.svg" width="49%" alt="Velora Musique : streaming musical complet"></picture></a>
   <a href="https://velora-protect.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/protect-dark.svg"><img src="assets/protect-light.svg" width="49%" alt="Velora Protect : sécurité et preuve d'antériorité pour le code"></picture></a>
   <a href="https://thomas-delhay.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ide-dark.svg"><img src="assets/ide-light.svg" width="49%" alt="Velora IDE : éditeur de code inspiré de Cursor"></picture></a>
