@@ -37,6 +37,7 @@ const thomas = {
   <a href="https://velora-protect.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/protect-dark.svg"><img src="assets/protect-light.svg" width="49%" alt="Velora Protect : sécurité et preuve d'antériorité pour le code"></picture></a>
   <a href="https://thomas-delhay.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/ide-dark.svg"><img src="assets/ide-light.svg" width="49%" alt="Velora IDE : éditeur de code inspiré de Cursor"></picture></a>
   <a href="https://velora-drive.netlify.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/drive-dark.svg"><img src="assets/drive-light.svg" width="49%" alt="Velora Drive : drive personnel"></picture></a>
+  <a href="https://velora-board.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/board-dark.svg"><img src="assets/board-light.svg" width="49%" alt="Velora Board : Kanban collaboratif en temps réel"></picture></a>
 </p>
 
 ## 🛠️ Technologies

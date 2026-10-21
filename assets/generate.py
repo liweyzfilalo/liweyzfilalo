@@ -82,6 +82,7 @@ ICONS = {
     "shield": '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/>',
     "code": '<polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="14" y1="4" x2="10" y2="20"/>',
     "cloud": '<path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9z"/><path d="M12 12v6"/><path d="m9 15 3-3 3 3"/>',
+    "kanban": '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 7v7"/><path d="M12 7v4"/><path d="M16 7v9"/>',
 }
 
 PROJECTS = [
@@ -97,6 +98,9 @@ PROJECTS = [
     dict(slug="drive", icon="cloud", color="#22d3ee", title="Velora Drive", tag="EN LIGNE",
          lines=["Un drive personnel façon Google Drive :", "comptes, espaces privés, partage."],
          chips=["Node.js", "Supabase", "Netlify"], link="velora-drive.netlify.app"),
+    dict(slug="board", icon="kanban", color="#ec4899", title="Velora Board", tag="EN LIGNE",
+         lines=["Kanban collaboratif en temps réel : curseurs", "live, chat et gestion de la concurrence."],
+         chips=["Next.js", "Socket.io", "Postgres", "Redis"], link="velora-board.vercel.app"),
 ]
 
 
